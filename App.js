@@ -7,16 +7,16 @@ export default function App() {
   <View style={ styles.container}>
     <View style={ styles.childcontainer}>
       <View style={ styles.childchildcontainer}>
-        <Text style={ styles.Text}>E mail</Text>
+        <Text  style={ styles.Text}>E mail</Text>
       </View>
-     <TextInput style={ styles.input}/>
+     <TextInput placeholder = "Your@address.net" style={ styles.input}/>
 
    </View>
    <View style={ styles.childcontainer}>
      <View style={ styles.childchildcontainer}>
         <Text style={ styles.Text}>Password</Text>
      </View>
-        <TextInput secureTextEntry={true} style={ styles.input}/>
+        <TextInput placeholder = "**********" secureTextEntry={true} style={ styles.input}/>
     </View>
     <View style={ {height:50, width:80,margin:10, alignSelf:'flex-end'}}>
         <Button title="Sign-in"  ></Button>
